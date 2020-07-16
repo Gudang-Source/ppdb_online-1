@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5{
     position: sticky !important;
     top: 0;
     z-index: 5;
-    padding: 15px;
 }
 .navbar .navbar-nav > .nav-item > .nav-link{
     text-transform: uppercase;
@@ -78,7 +77,22 @@ h1, h2, h3, h4, h5{
 }
 .navbar-toggler{
   background-color: #f1f1f1;
+  font-size: 16px;
+  margin-top: -13px;
 }
+
+@media (max-width: 650px){
+.navbar-expand-lg>.container,
+.navbar-expand-lg>.container-fluid,
+.navbar-expand-lg>.container-lg,
+.navbar-expand-lg>.container-md,
+.navbar-expand-lg>.container-sm,
+.navbar-expand-lg>.container-xl {
+    margin-right: 13px;
+    margin-left: 13px;
+}
+}
+
 
 /*css untuk jumbotron*/
 .cover {
@@ -196,8 +210,9 @@ h1, h2, h3, h4, h5{
 
 /*css untuk contact kami*/
 #contact .box {
-    margin-top: 27px;
-    width: 100%;
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 15px;
     display: block;
     background: #fff;
     border-radius: 4px;
@@ -227,7 +242,7 @@ h1, h2, h3, h4, h5{
     border-radius: 5px;
     color: #1e1e1e;
     font-size: 18px;
-    margin: 0 0 30px;
+    margin: 0 0 26px;
     border: solid 1px #e6e6e6;
     padding: 50px;
     -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
@@ -242,6 +257,17 @@ h1, h2, h3, h4, h5{
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     border-image: linear-gradient(to bottom, #e6e6e6 50%, #BDBDBD 100%);
     border-image-slice: 1;
+}
+.box3 {
+    background: #fff;
+    border-radius: 5px;
+    color: #1e1e1e;
+    font-size: 18px;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    padding: 20px;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 .progress{
     margin-bottom: 10px;
@@ -279,11 +305,15 @@ footer p {
 .social-pet li:nth-child(2) a {
   background-color: #007bff;
 }
+.social-pet li:nth-child(3) a {
+  background-color: red;
+}
 .social-pet li a:hover {
   background-color: #fff;
   color: #007bff;
 }
-.social-pet li:nth-child(2) a:hover {
+.social-pet li:nth-child(2) a:hover,
+.social-pet li:nth-child(3) a:hover {
   background-color: #fff;
   color: red;
 }

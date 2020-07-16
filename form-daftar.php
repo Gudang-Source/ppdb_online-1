@@ -15,6 +15,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.63">
   <title>Formulir Daftar</title>
 
   <!-- Bootstrap CSS-->
@@ -32,17 +33,16 @@
     <link rel="stylesheet" href="css/style.css">
 
 
-
 </head>
 <body  style="background-color: #d2d1d1">
     
-    <div class="container" style="padding: 0 30px">    <br><br>
-        <div class="kontent" style="box-shadow: 3px 3px 10px 5px grey;padding: 50px 120px;background-color: #fff; color: #111" >
+    <div class="container" style="padding: 0 0px">    <br><br>
+        <div class="kontent" style="box-shadow: 3px 3px 10px 5px grey;padding: 30px 40px;background-color: #fff; color: #111" >
             <h3 class="text-center">Formulir Pendaftaran</h3>
             <h1 class="text-center">PPDB SMA MUHPAT KENDAL</h1>   <hr><br>
 
     <form method="post" enctype="multipart/form-data">        
-        <div style="background-color: #d2d2d2; height: 30px" class="mb-3"><h5><span>1. </span>Data Pendaftar</h5>
+        <div style="background-color: #d2d2d2; height: 35px" class="mb-3"><h5 class="ml-2"><span>1. </span>Data Pendaftar</h5>
         </div>
                 <div class="form-group row">
                         <label  class="col-sm-12 col-md-12 col-xl-3 col-form-label">NISN</label>
@@ -190,7 +190,7 @@
                 <br>
                 
 
-          <div style="background-color: #d2d2d2; height: 30px" class="mb-3"><h5><span>2. </span>Asal Sekolah</h5></div>
+          <div style="background-color: #d2d2d2; height: 35px" class="mb-3"><h5 class="ml-2"><span>2. </span>Asal Sekolah</h5></div>
                 <div class="form-group row">
                       <label  class="col-sm-12 col-md-12 col-xl-3 col-form-label">Nama Sekolah</label>
                     <div class="col-sm-12 col-md-12 col-xl-9 pl-0">
@@ -211,7 +211,7 @@
                 </div>
                 <br>
 
-                <div style="background-color: #d2d2d2; height: 30px" class="mb-3"><h5><span>3. </span>Data Orang Tua</h5></div>
+                <div style="background-color: #d2d2d2; height: 35px" class="mb-3"><h5 class="ml-2"><span>3. </span>Data Orang Tua</h5></div>
           <div class="form-group row">
                         <label  class="col-sm-12 col-md-12 col-xl-3 col-form-label">Nama Ayah</label>
                     <div class="col-sm-12 col-md-12 col-xl-9 pl-0">
@@ -375,7 +375,7 @@
                     </div>
                 </div>
                 <br>
-            <div style="background-color: #d2d2d2; height: 30px" class="mb-3"><h5><span>4. </span>Data Wali ( jika ada )</h5></div>
+            <div style="background-color: #d2d2d2; height: 35px" class="mb-3"><h5 class="ml-2"><span>4. </span>Data Wali ( jika ada )</h5></div>
           <div class="form-group row">
                         <label  class="col-sm-12 col-md-12 col-xl-3 col-form-label">Nama Wali</label>
                     <div class="col-sm-12 col-md-12 col-xl-9 pl-0">
@@ -500,7 +500,7 @@
                 </div>
                 <br>
 
-          <div style="background-color: #d2d2d2; height: 30px" class="mb-3"><h5><span>5. </span>Pilihan Jurusan</h5></div>
+          <div style="background-color: #d2d2d2; height: 35px" class="mb-3"><h5 class="ml-2"><span>5. </span>Pilihan Jurusan</h5></div>
                   <div class="form-group row">
                         <label  class="col-sm-12 col-md-12 col-xl-3 col-form-label">Akademik</label>
                     <div class="col-sm-12 col-md-12 col-xl-9 pl-0">
@@ -525,7 +525,7 @@
                 </div>
                 
                 <br>    
-                <div style="background-color: #d2d2d2; height: 30px" class="mb-3"><h5><span>6. </span>Upload Foto</h5></div>
+                <div style="background-color: #d2d2d2; height: 35px" class="mb-3"><h5 class="ml-2"><span>6. </span>Upload Foto</h5></div>
                 <div class="form-group row">
                         <label class="col-sm-12 col-md-12 col-xl-3 col-form-label" for="exampleFormControlFile1">Foto Anda </label>
                     <div class="col-sm-12 col-md-12 col-xl-9 pl-0">

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.63">
     <title>PPDB MUHPAT</title>
 
     <!-- Bootstrap CSS-->
@@ -70,13 +71,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="box clickable d-flex flex-column justify-content-center mb-0 ">
+                    <div class="box3 clickable d-flex flex-column justify-content-center mb-0 ">
                         <h3 class="mb-4 text-center">Jadwal Seputar Pelaksanaan PPDB Sma Muhammadiyah 4 Kendal</h3>
                         <div class="progress">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                        <table class="table mt-4 mb-5 table-bordered table-hover">
+                        <table class="table mt-4 mb-5 table-bordered table-hover" style="font-size: 17px; width: 95%; color: black;">
                             <thead style="background-color: #007bff; color: #fff">
                                 <tr>
                                     <th scope="col">No</th>

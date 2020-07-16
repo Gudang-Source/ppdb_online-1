@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.63">
     <title>PPDB MUHPAT</title>
 
     <!-- Bootstrap CSS-->
@@ -71,12 +72,12 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="box clickable d-flex flex-column justify-content-center mb-0 ">
-                        <h3 class="mb-3 ml-5 mr-5" style="color: #248872;">Cetak Kartu Pendaftaran PPDB Sma Muhammadiyah 4 Kendal</h3>
-                        <div class="progress mb-5 ml-5 mr-5">
+                        <h3 class="mb-3 ml-2 mr-2" style="color: #248872;">Cetak Kartu Pendaftaran PPDB Sma Muhammadiyah 4 Kendal</h3>
+                        <div class="progress mb-5 ml-2 mr-2">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                        <div class="card mb-5 ml-5 mr-5">
+                        <div class="card mb-3 ml-2 mr-2">
                             <div class="card-header">
                                 Silahkan Masukkan Nisn Anda Untuk Mencetak Kartu Pendaftaran
                             </div>

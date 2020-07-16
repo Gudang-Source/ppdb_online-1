@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.63">
   <title>Formulir Daftar</title>
 
   <!-- Bootstrap CSS-->
@@ -50,7 +51,7 @@
 
             <p>Jangan Lupa membawa berkas pendaftaran ulang, yaitu :</p>
             
-            <div class="card" style="width: 14rem; margin-left: 325px">
+            <div class="card" style="width: 14rem; display: block; margin: auto;">
                 <ol class="py-2" style="text-align: left; text-indent: 3%; ">
                     <li>Ijazah</li>
                     <li>SKHUN</li>

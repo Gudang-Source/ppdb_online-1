@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.63,">
 	<title>PPDB MUHPAT</title>
 
 	<!-- Bootstrap CSS-->
@@ -138,10 +139,10 @@
     <section style="background-color: #fff;">
         <div class="container">
             <div class="row d-flex">
-                <div class="col-md-12 col-lg-4 d-flex">
+                <div class="col-md-12 col-sm-12 col-12 col-lg-4">
                    <div class="row">
-                    <div class="gambar">
-                       <img src="img/bu-narmi.jpg" width="350" height="350" style="border-radius: 50%;" alt="">
+                    <div class="gambar" style="display: block; margin: auto;">
+                       <img src="img/bu-narmi.jpg" width="350" height="350" style="border-radius: 50%; margin-top: 55px;" alt="">
                    </div>
                    </div>
                 </div>
